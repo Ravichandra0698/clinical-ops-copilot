@@ -1,0 +1,5 @@
+\copy studies         FROM '/data/pharma_dataset/studies.csv'        WITH (FORMAT csv, HEADER true)
+\copy trial_sites     FROM '/data/pharma_dataset/trial_sites.csv'    WITH (FORMAT csv, HEADER true)
+\copy subjects        FROM '/data/pharma_dataset/subjects.csv'       WITH (FORMAT csv, HEADER true)
+\copy visits          FROM '/data/pharma_dataset/visits.csv'         WITH (FORMAT csv, HEADER true)
+\copy adverse_events  FROM '/data/pharma_dataset/adverse_events.csv' WITH (FORMAT csv, HEADER true)
